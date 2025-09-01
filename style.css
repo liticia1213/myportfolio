@@ -4,7 +4,7 @@
 }
 body{
     height: 100dvh;
-background-image: url(shridhar-thorat-6AKLKt-KmdY-unsplash.jpg);
+background-image: url(../images/9.jpg);
 background-size:cover;
 background-repeat: no-repeat;
 background-position: center;
@@ -207,8 +207,7 @@ gap: 10px;
 .notes {
   display: flex;
   flex-direction: column;
-  gap: 20px;
-  padding: 50px 20px;
+ 
 }
 
 .timeline {
