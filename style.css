@@ -1,0 +1,248 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    height: 100dvh;
+background-image: url(shridhar-thorat-6AKLKt-KmdY-unsplash.jpg);
+background-size:cover;
+background-repeat: no-repeat;
+background-position: center;
+animation: moveBackground 20s infinite linear;
+  font-family: "Electrolize", sans-serif;
+  padding: 20px;
+  color: white;
+}
+
+@keyframes moveBackground {
+  0% {
+    background-position: center;
+  }
+  50% {
+    background-position: top;
+  }
+  100% {
+    background-position: center;
+  }
+}
+.imglogo{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+
+}
+.nav-element {
+ 
+  font-size: 22px;
+  
+  text-decoration: none;
+}
+.nav-element:hover {
+  text-decoration: underline;
+  text-underline-offset: 9px; 
+  cursor: pointer;
+  
+
+}
+.nav{
+    display: flex;
+    gap: 20px;
+    margin: 15px;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+}
+.description{
+    font-size: 22px;
+    color: #cccccc;
+}
+.name{
+    font-size: 82px;
+}
+.allaboutme{
+     height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;     
+  gap: 20px;   
+ 
+}
+.aboutme{
+    padding-top: 130px;
+}
+.famely:hover{
+    font-family: "Press Start 2P", cursive;
+    cursor: pointer;
+}
+
+a {
+  text-decoration: none; 
+  color: white; 
+}
+.code {
+  background: black;
+  border-radius: 10px;
+  width: 800px;
+  height: 300px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.4);
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ 
+}
+.code-header {
+  display: flex;
+  align-items: center;
+  background: #111827;
+  padding: 5px 10px;
+}
+.buttons span {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 6px;
+}
+.red { 
+  background: #ff5f56; 
+}
+.yellow { 
+  background: #ffbd2e;
+ }
+.green {
+   background: #27c93f; 
+  }
+  .what{
+      margin-left: 20px;
+  display: flex;
+  gap: 15px;
+  }
+  .t {
+  color: #94a3b8;
+  font-size: 14px;
+  cursor: pointer;
+}
+.active{
+  color: #fff;
+  font-weight: bold;
+}
+.code-content {
+  padding: 20px;
+  color: #e2e8f0;
+  font-size: 16px;
+  line-height: 1.6;
+}
+.allcode{
+   display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ height: 100dvh;
+ margin-left: 20px;
+}
+.about-title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+}
+.about-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.color{
+  color:rgb(59, 56, 160);
+}
+.color:hover{
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+ 
+}
+.work-title{
+   display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+}
+.work-text{
+   font-size: 22px;
+    color: #cccccc;
+}
+.project-container{
+  height: 100px;
+  width: 300px;
+  background-color: red;
+}
+img{
+  height: 200px;
+  width: 300px;
+  border-radius: 30%;
+}
+.cont{
+  background-color: #111827;
+   height: 400px;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border-radius: 15%;
+  padding: 10px;
+}
+.container-work{
+  display: flex;
+gap: 10px;
+}
+.workk{
+  display: flex;
+  flex-direction: column;
+ gap: 20px;
+}
+.notes {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 50px 20px;
+}
+
+.timeline {
+  
+  
+width: 100dvh;
+  border-left: 3px solid #3b82f6;
+}
+
+.timeline-item {
+  margin-bottom: 30px;
+  position: relative;
+}
+
+
+
+.tdate {
+  font-size: 14px;
+  color: #94a3b8;
+  margin-bottom: 5px;
+}
+
+.timeline-content {
+  background: #1e293b;
+  color: white;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: left;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.3);
+}
+.note-title{
+ font-size: 50px;
+}
+.text-note{
+  font-size: 22px;
+    color: #cccccc;
+}
